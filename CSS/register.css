@@ -1,0 +1,188 @@
+body {
+background-color: yellow;
+background-image:url("../photos/foot.gif");
+background-size: 2300px  1400px;
+}
+.container {
+border: 3px solid black;
+width: 1000px;
+height: 820px;
+margin: auto;
+}
+.logo {
+float: left;
+width: 190px;
+height: 150px;
+margin: auto;
+color:white;
+background-color:#d19fe8;
+background-image:url("../photos/nikelogo.jpg");
+background-size: 190px  150px;
+}
+.headright {
+	width: 100px;
+	background: url ("../photos/pb.jpg");
+	height: 100px ;
+	float: right;
+}
+.headright small{
+	float: right;
+	font-size: 16px;
+	color; 
+}
+.headright label{
+	float: right;
+	font-size: 18px;
+	color: 
+}
+.contact{
+float: right;
+width: 110px;
+height: 150px;
+margin: auto;
+color: mediumpurple;
+background-color: #fff0f5 ;
+background-image:url("../photos/nikee.jpg");
+}
+.headercon{
+	width: 1000px ;
+	height: 200px;
+}
+.navigation{
+float: left;
+width: 1000px;
+height: 40px;
+margin: auto;
+color: black;
+background-image: url("../photos/navback.gif");
+}
+.navigation li{
+	text-decoration: none;
+	color: steelblue;
+	margin: auto;
+	display: inline-block;
+	font-size: 15px;
+}
+.navigation li:hover{
+	background-color: white;
+}
+.navigation a{
+	 color: black;
+	 padding-left: 50px;
+	 padding-right: 50px;
+	 text-decoration: none;
+}
+.flashcon{
+	margin: 0 auto;
+	width: 1000px;
+	height: 300px;
+	background: peach;
+}
+.flashimage{
+float: left;
+width: 100%;
+height: 600px;
+color: black;
+background-color: #fffacd;
+background-image: url("../photos/backy.jpg");
+background-repeat: no-repeat; /* Prevent background image from repeating */
+background-size: cover; /* Optional: Adjust the background size to cover the container */
+}
+.subject{
+	position: relative;
+}
+myForm {
+		margin-top: 120px;
+}
+.submit-button {
+	background-color: purple;
+	color: white;
+	border: none;
+	padding: 10px 10px;
+	cursor: pointer;
+}
+.submit-button:hover{
+	background-color: deeppink;
+}
+input[type=submit] {
+  background-color: purple;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right 50%;
+  margin-left: 30%;
+}
+
+input[type=submit]:hover {
+  background-color: deeppink;
+}
+.sidebar{
+float: left;
+width: 0px;
+height: 200px;
+margin: auto;
+color:white;
+background-color:#ffcba4;
+}
+#subject{
+float: center;
+}
+.contentarea{
+float: left;
+width: 0px;
+height: 0px;
+margin: auto;
+color: black;
+background-color:#b0c4de ;
+}
+.footer{
+float: left;
+width: 1000px;
+height: 210px;
+margin: auto;
+color:black;
+background-color:#fffdd0 ;
+background-image:url("../photos/foot.jpg");
+background-size: 1000px  210px;
+}
+.socials{
+position: relative;
+top: 50px;
+}
+.socials img {
+  width: 40px; /* Set the width of the social icons */
+  height: auto; /* Maintain the aspect ratio */
+}
+.info{
+float: bottom;
+}
+.skool{
+float: bottom;
+color: white;
+}
+.trans{
+float: left;
+width: 1000px;
+height: 40px;
+margin: auto;
+color: black;
+background-color:none;
+}
+.trans li{
+	text-decoration: none;
+	color: steelblue;
+	margin: auto;
+	display: inline-block;
+	font-size: 17px;
+}
+.trans li:hover{
+	background-color: white;
+}
+.trans a{
+	 color: black;
+	 padding-left: 50px;
+	 padding-right: 50px;
+	 text-decoration: none;
+}

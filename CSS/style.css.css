@@ -1,0 +1,94 @@
+html{
+	background-color: pink;
+}	
+h1: hover{
+	color: white;
+}
+h1{
+	text-align: center;
+	font-size: 40px;
+}
+p: hover{
+	color: white:
+}
+span: hover{
+	color: red;
+}
+span{
+	color: white;
+}
+p, span{
+	text-align: center;
+	font-size: 30px;
+}
+img{
+	margin-left: 44%;
+}
+table, th, td{
+	border: 1px solid black;
+	margin-left: 28%
+}
+hr {
+	color: black;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right 50%;
+  margin-left: 30%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.col-25 {
+  float: center;
+  width: 65%;
+  margin-top: 6px;
+  margin-left: 30%;
+}
+
+.col-75 {
+  float: center;
+  width: 65%;
+  margin-top: 6px;
+
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 500px) {
+  .col-25, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+

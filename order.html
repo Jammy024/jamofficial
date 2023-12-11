@@ -1,0 +1,232 @@
+<html>
+<header>
+<title> NIKE </title>
+<!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=9870835&style=0041&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                
+<link href="CSS\order.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/skitter.styles.css">
+
+  <script src="js/jquery-1.6.3.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.animate-colors-min.js"></script>
+  <script src="js/jquery.skitter.min.js"></script>
+  <script src="js/highlight.js"></script>
+
+  <script>
+       $(document).ready(function(){
+    		var options = {};
+    		if (document.location.search) {
+    			var array = document.location.search.split('=');
+    			var param = array[0].replace('?','');
+    			var value = array[1];
+    			if (param == 'animation'){
+    				options.animation = value;
+    			}
+    			else if (param == 'type_navigaton'){
+    				if (value == 'dots_preview'){
+    					$('.border_box').CSS({'marginBottom':'40px'});
+    					options['dots'] = true;
+    					options['preview'] = true;
+    				}
+    				else {
+    					options[value] = true;
+    					if (value == 'dots') $ ('.border_box').CSS({'marginBottom': '40px'});
+    				}
+    			}
+    		}
+    		$('.box_skitter_large').skitter(options);
+    		//Highlight
+    		$('pre.code').highlight({source:1, zebra:1, indent:'space', list:'ol'});
+    	});
+  </script>
+</header>
+<body>
+<div class="container">
+<div class = "headcon">
+<div class = "logo"> </div>
+<div class = "contact"><b>For more information, Just email us!</b></div>
+<img src = "photos/nikebacklogo.gif" alt ="" width = "700" height = "150" /> 
+</div>
+<div class = "navigation">
+     <ul><li><a href="index.html"><b>HOME</b></a></li>
+		<li><a href="register.html"><b>REGISTER</b></a></li>
+		<li><a href="about.html"><b>ABOUT</b></a></li>
+		<li><a href="order.html"><b>ORDER HERE</b></a></li>
+		<li><a href="contact.html"><b>CONTACT US</b></a></li>
+	</ul>
+</div>
+<section class="items">
+        <div class="item">
+            <img src="photos/sale1.jpg" width="300" height="400">
+            <h3>Nike 1</h3>
+        <label for="size1">Size:</label>
+        <select id="size1">
+     	  <option value="" disabled selected>CHOOSE SIZE</option>
+	       <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+            <button class="order-button" data-product="Product 1" data-price="150.00" data-image="photos/sale1.jpg">Order Now</button>  
+        </div>
+        <br>
+        <div class="item">
+            <img src="photos/sale2.jpg" width="300" height="400">
+            <h3>Nike 2</h3>
+        <label for="size2">Size:</label>
+        <select id="size2">
+            <option value="" disabled selected>CHOOSE SIZE</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+        <button class="order-button" data-product="Product 2" data-price="250.00" data-image="photos/sale2.jpg">Order Now</button>
+    </div>
+        <br>
+        <div class="item">
+            <img src="photos/sale3.jpg"  width="300" height="400">
+            <h3>Nike 3</h3>
+        <label for="size3">Size:</label>
+        <select id="size3">
+        	<option value="" disabled selected>CHOOSE SIZE</option>
+	       <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+             <button class="order-button" data-product="Product 3" data-price="150.00"data-image="photos/sale3.jpg">Order Now</button>
+        </div>
+        <br>
+        <div class="item">
+            <img src="photos/sale4.jpg" width="300" height="400">
+            <h3>Nike 4</h3>
+        <label for="size4">Size:</label>
+        <select id="size4">
+        	<option value="" disabled selected>CHOOSE SIZE</option>
+	       <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+            <button class="order-button" data-product="Product 4" data-price="150.00"data-image="photos/sale4.jpg">Order Now</button>
+        </div>
+        <br>
+            <div class="item">
+            <img src="photos/sale5.jpg" width="300" height="400">
+            <h3>Nike 5</h3>
+        <label for="size5">Size:</label>
+        <select id="size5">
+        	<option value="" disabled selected>CHOOSE SIZE</option>
+	       <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+             <button class="order-button" data-product="Product 5" data-price="200.00"data-image="photos/sale5.jpg">Order Now</button>
+        </div>
+        <br>
+           <div class="item">
+            <img src="photos/sale6.jpg" width="300" height="400">
+            <h3>Nike 6</h3>
+        <label for="size6">Size:</label>
+        <select id="size6">
+        	<option value="" disabled selected>CHOOSE SIZE</option>
+	       <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <br>
+             <button class="order-button" data-product="Product 6" data-price="200.00"data-image="photos/sale6.jpg">Order Now</button>
+        </div>
+        
+</section>
+
+    <section class="cart">
+
+        <h2>Your Cart</h2>
+        <ul id="cart-items">
+
+            <!-- Cart items will be added here -->
+
+        </ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button id="checkout-button">Checkout</button>
+
+    </section>
+
+    <script>
+    const cart = [];
+    let total = 0;
+
+    function addToCart(product, price, image, size) {
+        cart.push({ product, price, image, size });
+        total += price;
+        updateCart();
+    }
+
+    function updateCart() {
+        const cartItems = document.getElementById('cart-items');
+        cartItems.innerHTML = '';
+        cart.forEach(item => {
+            const li = document.createElement('li');
+            li.innerHTML = `<img src="${item.image}" alt="${item.product}" width="50" height="50"> 
+                            ${item.product} - Size: ${item.size} - $${item.price.toFixed(2)}`;
+            cartItems.appendChild(li);
+        });
+
+        const cartTotal = document.getElementById('cart-total');
+        cartTotal.textContent = total.toFixed(2);
+    }
+
+    const orderButtons = document.querySelectorAll('.order-button');
+    orderButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const product = button.getAttribute('data-product');
+            const price = parseFloat(button.getAttribute('data-price'));
+            const image = button.getAttribute('data-image');
+            const size = document.getElementById(`size${product.split(" ")[1]}`).value;
+            addToCart(product, price, image, size);
+        });
+    });
+
+    const checkoutButton = document.getElementById('checkout-button');
+    checkoutButton.addEventListener('click', () => {
+        alert(`Total: $${total.toFixed(2)}`);
+    });
+</script>
+
+<div class="footer">
+<div class = "socials"><center>
+   <a href=" "><img src = "./photos/fbicon.jpg"></a>
+   <a href=" "><img src = "./photos/instaicon.jpg"></a>
+   <a href=" "><img src = "./photos/emailicon.jpg"></a><br>
+   <b class ="info">
+
+Just Do It </b>
+<div class = "trans">
+     <ul><li><a href="index.html"><b>HOME</b></a></li>
+		<li><a href="register.html"><b>REGISTER</b></a></li>
+		<li><a href="about.html"><b>ABOUT</b></a></li>
+		<li><a href="order.html"><b>ORDER HERE</b></a></li>
+		<li><a href="contact.html"><b>CONTACT US</b></a></li></ul>
+		<b class ="skool">FOR SCHOOL PURPOSES ONLY</b>
+</div>
+</div></div>
+</div>
+</body>
+</html>
+		
